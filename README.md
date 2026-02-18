@@ -13,7 +13,7 @@ Predicting which telecom customers will leave using machine learning.
 - [x] Day 1: Load and explore data
 - [x] Day 2: Visualize churn patterns
 - [x] Day 3: Clean, encode, feature engineering
-- [ ] Day 4: Baseline + train/test split
+- [x] Day 4: Baseline + train/test split
 - [ ] Day 5: XGBoost model
 - [ ] Day 6: Confusion matrix, metrics
 - [ ] Day 7: Business recommendations

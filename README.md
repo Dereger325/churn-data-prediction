@@ -3,7 +3,7 @@
 
 Predicting telecom customer churn with **90% recall** using XGBoost and cost-optimized threshold tuning.
 
-## 🎯 Results
+##  Results
 
 | Model | Accuracy | Precision | Recall | F1 | ROC-AUC |
 |-------|----------|-----------|--------|-----|---------|
@@ -20,7 +20,7 @@ Predicting telecom customer churn with **90% recall** using XGBoost and cost-opt
 
 ---
 
-## 🔍 Key Insights
+##  Key Insights
 
 ### Top Churn Predictors
 1. **Contract type** (combined importance: 0.53)

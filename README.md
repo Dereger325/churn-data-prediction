@@ -1,27 +1,3 @@
-# Customer Churn Prediction
-
-Predicting which telecom customers will leave using machine learning.
-
-## Dataset
-- Source: IBM Telco Customer Churn
-- Samples: 7,043 customers
-- Features: 21
-- Target: Churn (Yes/No)
-- Churn rate: ~27%
-
-## Progress
-- [x] Day 1: Load and explore data
-- [x] Day 2: Visualize churn patterns
-- [x] Day 3: Clean, encode, feature engineering
-- [x] Day 4: Baseline + train/test split
-- [x] Day 5: XGBoost model
-- [x] Day 6: Confusion matrix, metrics
-- [x] Day 7: Business recommendations
-
-## Tech Stack
-- Python, Pandas, NumPy
-- Matplotlib, Seaborn
-- Scikit-learn, XGBoost
 
 # Customer Churn Prediction
 
@@ -64,7 +40,7 @@ Predicting telecom customer churn with **90% recall** using XGBoost and cost-opt
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 - **Source:** IBM Telco Customer Churn
 - **Size:** 7,043 customers
@@ -74,7 +50,7 @@ Predicting telecom customer churn with **90% recall** using XGBoost and cost-opt
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python 3.x**, Pandas, NumPy
 - **Scikit-learn** - preprocessing, metrics, train/test split
@@ -83,7 +59,7 @@ Predicting telecom customer churn with **90% recall** using XGBoost and cost-opt
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 ```
 ├── churn_analysis.ipynb    # Main analysis notebook
 ├── README.md               # This file
@@ -93,7 +69,7 @@ Predicting telecom customer churn with **90% recall** using XGBoost and cost-opt
 
 ---
 
-## 🚀 Usage
+##  Usage
 ```bash
 # Clone repository
 git clone https://github.com/Dereger325/churn-data-prediction.git
@@ -111,7 +87,7 @@ jupyter notebook churn_analysis.ipynb
 
 ---
 
-## 📈 Model Performance Details
+## Model Performance Details
 
 ### Confusion Matrix (Threshold = 0.3)
 ```
@@ -129,7 +105,7 @@ Actual Yes  [39]    [335]   ← Caught 335/374 churners (90%)
 
 ---
 
-## 💡 Key Learnings
+##  Key Learnings
 
 1. **Accuracy is misleading** for imbalanced data (73% baseline just predicts majority class)
 2. **Business context drives threshold** - default 0.5 rarely optimal
@@ -139,7 +115,7 @@ Actual Yes  [39]    [335]   ← Caught 335/374 churners (90%)
 
 ---
 
-## 🎓 Week 1 of Month 2 - ML Learning Journey
+##  Week 1 of Month 2 - ML Learning Journey
 
 **Days 1-7 breakdown:**
 - Day 1: Data loading and exploration
@@ -155,7 +131,7 @@ Actual Yes  [39]    [335]   ← Caught 335/374 churners (90%)
 
 ---
 
-## 📝 Next Steps
+##  Next Steps
 
 - [ ] Deploy model predictions to CRM
 - [ ] A/B test retention offers
@@ -165,8 +141,7 @@ Actual Yes  [39]    [335]   ← Caught 335/374 churners (90%)
 
 ---
 
-**Author:** [Dereger]  
-**Part of:** 4-year ML Engineering Roadmap (Month 2, Week 1)  
+**Author:** [Dereger]   
 **GitHub:** [github.com/Dereger325](https://github.com/Dereger325)
 
 ---
